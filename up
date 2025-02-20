@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+podman-compose up -d
+
+podman-compose exec ollama ollama pull deepseek-r1:7b
